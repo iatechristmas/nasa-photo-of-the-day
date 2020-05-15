@@ -17,9 +17,9 @@ function App() {
 
   return (
     <div className="App">
-      <Header date={data.date} />
+      <Header />
+      <Image data={data} />
       <Description explanation={data.explanation} />
-      <Image image={data.url} />
       {/* <p>
         Read through the instructions in the README.md file to build your NASA
         app! Have fun <span role="img" aria-label='go!'>🚀</span>!
